@@ -18,7 +18,7 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 body {
-  background: url(/assets/este.png) no-repeat fixed center center #46504d;
+  background: url(/images/este.png) no-repeat fixed center center #46504d;
   background-size: cover;
   margin: 0;
 }
@@ -30,7 +30,7 @@ figure,
 footer{
   width:100%;
   height:100%;
-  background-image:url(/assets/metal2.jpeg);
+  background-image:url(/images/metal2.jpeg);
   margin: 0;
 }
 header,

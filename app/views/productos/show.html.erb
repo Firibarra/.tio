@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Descripcion:</strong>
+  <%= @producto.descripcion %>
+</p>
+
+<p>
+  <strong>Fecha:</strong>
+  <%= @producto.fecha %>
+</p>
+
+<p>
+  <strong>Imagen:</strong>
+  <%= image_tag @producto.image.url(:medium) %>
+</p>
+
+<%= link_to 'Editar', edit_producto_path(@producto) %> |
+<%= link_to 'Volver', productos_path %>
